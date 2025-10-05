@@ -17,7 +17,7 @@ logging.basicConfig(
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 # Вставь сюда свой API ключ от Gemini
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 # ================================
 
 # Настройка Gemini
