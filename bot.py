@@ -14,10 +14,10 @@ logging.basicConfig(
 
 # ========== НАСТРОЙКИ ==========
 # Вставь сюда свой токен от BotFather
-TELEGRAM_TOKEN = "7783396861:AAEyCHbLtnTr3ZVgoYOViaVyX-JOVEmLDBU"
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 # Вставь сюда свой API ключ от Gemini
-GEMINI_API_KEY = "AIzaSyDx1KyRJ79ICj2GBRz7gwDjZ2a8BcN9Ji0"
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 # ================================
 
 # Настройка Gemini
